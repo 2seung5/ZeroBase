@@ -1,3 +1,4 @@
+//이승호
 import java.util.Scanner;
 
 public class Mini03 {
