@@ -1,4 +1,4 @@
-//이승호
+package MiniExam;//이승호
 import java.util.Calendar;
 import java.util.Scanner;
 

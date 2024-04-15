@@ -1,3 +1,5 @@
+package MiniExam;
+
 import java.util.Arrays;
 
 //이승호

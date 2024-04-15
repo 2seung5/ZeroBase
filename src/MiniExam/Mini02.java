@@ -1,4 +1,4 @@
-//이승호
+package MiniExam;//이승호
 import java.util.*;
 public class Mini02 {
     public static void main(String[] args) {
