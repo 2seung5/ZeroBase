@@ -17,12 +17,12 @@ public class Exam2 {
             }
             int[] answer = new int[stack.size()];
 
-            for(int i=0; i< stack.size(); i++){
+            /*for(int i=0; i< stack.size(); i++){
                 answer[stack.size()-i-1] = stack.pop();
-            }
-            /*for(int i=stack.size()-1; i>=0; i--){
-                answer[i] = stack.pop();
             }*/
+            for(int i=stack.size()-1; i>=0; i--){
+                answer[i] = stack.pop();
+            }
             return answer;
         }
     }
