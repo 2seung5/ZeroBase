@@ -1,4 +1,4 @@
-package Stack;
+package Algorithm.Stack;
 //배열을 이용해 스택처럼 구현
 class ArrayStack {
     int[] arr;

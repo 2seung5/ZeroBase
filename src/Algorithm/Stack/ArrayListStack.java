@@ -1,4 +1,4 @@
-package Stack;
+package Algorithm.Stack;
 //arraylist를 이용해 스택처럼 구현
 import java.util.ArrayList;
 class ListStack{

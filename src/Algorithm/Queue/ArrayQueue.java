@@ -1,4 +1,4 @@
-package Queue;
+package Algorithm.Queue;
 //원형 큐로 배열 관리
 class ArrayQueue1{
     int [] arr;

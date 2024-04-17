@@ -1,4 +1,4 @@
-package Queue;
+package Algorithm.Queue;
 import java.util.ArrayList;
 class ListQueue1{
     ArrayList list;

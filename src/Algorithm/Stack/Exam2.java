@@ -1,5 +1,4 @@
-package Stack;
-import javax.swing.*;
+package Algorithm.Stack;
 import java.util.*;
 public class Exam2 {
 
