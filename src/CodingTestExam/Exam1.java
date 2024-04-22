@@ -5,7 +5,7 @@ import java.lang.String;
 
 public class Exam1 {
     public static void main(String[] args) {
-       /* String s = "123";
+        String s = "123";
         int answer = 0;
 
         s=s.replace("zero","0");
@@ -19,10 +19,8 @@ public class Exam1 {
         s=s.replace("eight","8");
         s=s.replace("nine","9");
         answer = Integer.parseInt(s);
-        System.out.println(answer);*/
-        String s = "asdf";
-        String[] a = s.split("");
-        System.out.println(a[2]);
+        System.out.println(answer);
+
 
 
     }
