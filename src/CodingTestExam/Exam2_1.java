@@ -9,6 +9,7 @@ public class Exam2_1 {
     public static void main(String[] args) {
         int n =5;
         String s ="snowball";
+        int len = s.length();
         String[] arr = s.split("",s.length());
         Scanner sc = new Scanner(System.in);
         int t;
@@ -17,15 +18,26 @@ public class Exam2_1 {
         for (int i = 0; i<n; i++){
             q.add(".");
         }
-        for (int i = 0; i<t; i++){
-            if(t <= s.length()) {
-                q.add(arr[i]);
-                q.poll();
-            }else {
-                q.add(".");
-                q.poll();
-            }
 
+        while (t>0){
+
+            for (int i = 0; i< n+s.length(); i++){
+                if(i < s.length()) {
+
+                    q.add(arr[i]);
+                    q.poll();
+                    t--;
+                    if(t<1)break;
+                }else{
+                    q.add(".");
+                    q.poll();
+                    t--;
+                    if(t<1)break;                }
+            }
+        }
+        String answer="";
+        while (!q.isEmpty()){
+            answer+=q.poll();
         }
 
     }
