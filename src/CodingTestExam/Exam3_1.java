@@ -1,25 +1,30 @@
 package CodingTestExam;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class Exam3_1 {
     public static void main(String[] args) {
+        String answer = "";
         String s = "aacddefg";
-        ArrayList<String> list= new ArrayList<String>();
+        Stack<String> stack = new Stack<>();
         String[] arr = s.split("");
-        for (int i = 0; i<s.length(); i++){
-            list.add(arr[i]);
-        }
 
-        for (int i = 0; i<list.size()-1; i++){
-            if(list.get(i).equals(list.get(i+1))){
-                list.remove(i);
-                list.remove(i);
+
+        for (int i = 0; i<arr.length; i++){
+            if(stack.isEmpty()||!arr[i].equals(stack.peek())){
+                stack.push(arr[i]);
+            }else {
+                stack.pop();
             }
         }
-        for (int i = 0; i<list.size(); i++){
-            System.out.print(list.get(i));
+
+        for (int i = stack.size(); i>0; i--){
+                answer += stack.pop();
         }
+        StringBuffer sb = new StringBuffer(answer);
+        String reverse = sb.reverse().toString();
+        System.out.println(reverse);
 
     }
 
