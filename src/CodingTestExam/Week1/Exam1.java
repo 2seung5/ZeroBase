@@ -1,4 +1,4 @@
-package CodingTestExam;
+package CodingTestExam.Week1;
 
 import java.util.HashMap;
 import java.lang.String;

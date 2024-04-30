@@ -1,4 +1,4 @@
-package CodingTestExam;
+package CodingTestExam.Week1;
 
 public class Exam4_2 {
     public static void main(String[] args) {
