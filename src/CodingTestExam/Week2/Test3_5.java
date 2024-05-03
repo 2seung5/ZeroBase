@@ -2,7 +2,7 @@ package CodingTestExam.Week2;
 
 public class Test3_5 {
     public static void main(String[] args) {
-        int num = 999911;
+        int num = 911;
         int answer = 0;
         int isMinus = 0;
         if (num<0){
