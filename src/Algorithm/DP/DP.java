@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.DP;
 //피보나치 수열 두가지 방법으로 풀기
 //1. 타뷸레이션 2. 메모이제이션
 public class DP {
