@@ -1,3 +1,5 @@
+package SaffyCT;
+
 import java.util.Scanner;
 
 public class T2 {
